@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rbj-engineering-website/static/css/main.deb3c1bf.css",
-    "main.js": "/rbj-engineering-website/static/js/main.1dad7d95.js",
-    "static/js/488.273886f3.chunk.js": "/rbj-engineering-website/static/js/488.273886f3.chunk.js",
-    "index.html": "/rbj-engineering-website/index.html",
-    "main.deb3c1bf.css.map": "/rbj-engineering-website/static/css/main.deb3c1bf.css.map",
-    "main.1dad7d95.js.map": "/rbj-engineering-website/static/js/main.1dad7d95.js.map",
-    "488.273886f3.chunk.js.map": "/rbj-engineering-website/static/js/488.273886f3.chunk.js.map"
+    "main.css": "/home/static/css/main.deb3c1bf.css",
+    "main.js": "/home/static/js/main.212dc56f.js",
+    "static/js/488.273886f3.chunk.js": "/home/static/js/488.273886f3.chunk.js",
+    "index.html": "/home/index.html",
+    "main.deb3c1bf.css.map": "/home/static/css/main.deb3c1bf.css.map",
+    "main.212dc56f.js.map": "/home/static/js/main.212dc56f.js.map",
+    "488.273886f3.chunk.js.map": "/home/static/js/488.273886f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.deb3c1bf.css",
-    "static/js/main.1dad7d95.js"
+    "static/js/main.212dc56f.js"
   ]
 }
