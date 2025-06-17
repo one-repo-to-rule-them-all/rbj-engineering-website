@@ -10,7 +10,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/rbj-engineering-website">
       <div>
         <Navbar />
         <AppRoutes />
