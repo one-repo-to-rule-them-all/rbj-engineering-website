@@ -14,7 +14,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --repo http://github.com/one-repo-to-rule-them-all/rbj-engineering-website.git",
+    "deploy": "gh-pages -d build --repo https://github.com/one-repo-to-rule-them-all/rbj-engineering-website.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,7 +38,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://one-repo-to-rule-them-all.github.io/home/",
+  "homepage": "https://one-repo-to-rule-them-all.github.io/rbj-engineering-website/home",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
