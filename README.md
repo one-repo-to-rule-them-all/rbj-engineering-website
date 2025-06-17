@@ -13,26 +13,27 @@ This is a personal website built using **React** and deployed on **GitHub Pages*
 - **@testing-library/react** (Testing)
 - **gh-pages** (Deployment Helper)
 
-
 ## Setup & Installation
-1. Clone the repository:
+
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/YOUR_GITHUB_USERNAME/my-website.git
    cd my-website
    ```
 
-2. Install dependencies:
+2. **Install dependencies**:
    ```bash
    npm install
    ```
 
-3. Run the development server:
+3. **Run the development server**:
    ```bash
    npm start
    ```
    The website will be available at `http://localhost:3000`.
 
 ## Project Structure
+
 ```
 my-website/
 │── src/
@@ -51,47 +52,68 @@ my-website/
 │   │   ├── styles.css       # Global styles
 │   ├── App.js               # Main app with routing
 │   ├── index.js             # Renders the app
-│── public/                   # Static files
-│── package.json              # Dependencies and scripts
-│── README.md                 # Documentation
+│── public/                  # Static files
+│── package.json             # Dependencies and scripts
+│── README.md                # Documentation
 ```
 
 ## Deployment to GitHub Pages
-1. Install GitHub Pages package:
+
+1. **Install the GitHub Pages package**:
    ```bash
    npm install gh-pages --save-dev
    ```
 
-2. Add the following to `package.json`:
+2. **Update `package.json`**:
+   Add the following fields (replace `YOUR_GITHUB_USERNAME` with your GitHub username):
+
    ```json
    "homepage": "https://YOUR_GITHUB_USERNAME.github.io/my-website",
    "scripts": {
      "predeploy": "npm run build",
-     "deploy": "gh-pages -d build --repo https://github.com/YOUR_GITHUB_USERNAME/my-website.git""
+     "deploy": "gh-pages -d build"
    }
    ```
 
-3. Deploy the app:
+3. **Deploy the app**:
    ```bash
    npm run deploy
    ```
 
-4. Visit `https://YOUR_GITHUB_USERNAME.github.io/my-website` to see the live site.
+   This will:
+   - Build your React app
+   - Push the `build` folder to a new `gh-pages` branch
+   - Deploy your site to GitHub Pages
+
+4. **Enable GitHub Pages on GitHub**:
+   - Go to your repository
+   - Click **Settings** > **Pages**
+   - Under **Source**, select the `gh-pages` branch
+   - Click **Save**
+
+5. **Access Your Website**:
+   After a few minutes, your site will be live at:
+
+   ```
+   https://YOUR_GITHUB_USERNAME.github.io/my-website
+   ```
 
 ## Features
+
 - Dynamic Routing with React Router
 - Responsive Design for Mobile & Desktop
 - Organized Project & Vacation Pages
 
 ## Future Enhancements
+
 - **Custom Domain Integration**
 - **Dark Mode Support**
 - **Contact Form for Inquiries**
 
 ## License
+
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
 **Contributions & feedback are welcome!** 🚀
-
